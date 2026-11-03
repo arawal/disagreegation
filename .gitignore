@@ -1,0 +1,16 @@
+# Working caches from the fetch scripts: millions of small per-point files and
+# append-only logs, all fully regenerable by re-running the scripts against
+# the source table. Not needed to use or verify the results in output/.
+aashto_out/
+aashto_out_CD/
+aashto_out_E/
+disagg_out/
+disagg_out_C/
+disagg_out_D/
+disagg_out_E/
+watchdog*.log
+watchdog*.sh.log
+__pycache__/
+*.pyc
+.DS_Store
+.venv_pdf/
